@@ -161,7 +161,7 @@ export default class SearchBar extends React.Component<
     return (
       <RNBounceable
         {...this.props}
-        bounceEffect={0.97}
+        bounceEffect={0}
         style={[_container(darkMode), style]}
         onPress={this.handleSearchBarPress}
       >
