@@ -36,7 +36,7 @@ class SearchBar extends React.Component {
         };
         this.renderSearchIcon = () => {
             const { onSearchPress, darkMode = false, searchIconComponent, searchIconImageStyle, ImageComponent = react_native_1.Image, searchIconImageSource = darkMode ? whiteSearchIcon : defaultSearchIcon, } = this.props;
-            return (<react_native_bounceable_1.default style={SearchBar_style_1.default.searchContainer} onPress={onSearchPress}>
+            return (<react_native_bounceable_1.default bounceEffect={1} style={SearchBar_style_1.default.searchContainer} onPress={onSearchPress}>
         {searchIconComponent || (<ImageComponent resizeMode="contain" source={searchIconImageSource} style={[SearchBar_style_1.default.searchIconImageStyle, searchIconImageStyle]}/>)}
       </react_native_bounceable_1.default>);
         };
@@ -46,14 +46,14 @@ class SearchBar extends React.Component {
         };
         this.renderClearIcon = () => {
             const { darkMode = false, clearIconComponent, clearIconImageStyle, ImageComponent = react_native_1.Image, clearIconImageSource = darkMode ? whiteClearIcon : defaultClearIcon, } = this.props;
-            return (<react_native_bounceable_1.default bounceEffect={0.8} style={SearchBar_style_1.default.clearIconContainer} onPress={this.handleOnClearPress}>
+            return (<react_native_bounceable_1.default bounceEffect={1} style={SearchBar_style_1.default.clearIconContainer} onPress={this.handleOnClearPress}>
         {clearIconComponent || (<ImageComponent resizeMode="contain" source={clearIconImageSource} style={[SearchBar_style_1.default.clearIconImageStyle, clearIconImageStyle]}/>)}
       </react_native_bounceable_1.default>);
         };
     }
     render() {
         const { style, darkMode = false, spinnerVisibility } = this.props;
-        return (<react_native_bounceable_1.default {...this.props} bounceEffect={0.97} style={[SearchBar_style_1._container(darkMode), style]} onPress={this.handleSearchBarPress}>
+        return (<react_native_bounceable_1.default {...this.props} bounceEffect={1} style={[SearchBar_style_1._container(darkMode), style]} onPress={this.handleSearchBarPress}>
         {spinnerVisibility ? this.renderSpinner() : this.renderSearchIcon()}
         {this.renderTextInput()}
         {this.renderClearIcon()}
