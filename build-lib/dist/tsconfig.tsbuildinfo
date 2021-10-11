@@ -1,0 +1,506 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "signature": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/tslib/tslib.d.ts": {
+        "version": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "signature": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/react-native/globals.d.ts": {
+        "version": "a4a0dff9c7f59d357b6ec45c22cdab883c628748a6947426a0611a13a27c950e",
+        "signature": "a4a0dff9c7f59d357b6ec45c22cdab883c628748a6947426a0611a13a27c950e",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/@types/react-native/legacy-properties.d.ts": {
+        "version": "818a9a35cf844bd8380e9273b8ed82023c614164d0975f096b8c9b680730cbc3",
+        "signature": "818a9a35cf844bd8380e9273b8ed82023c614164d0975f096b8c9b680730cbc3",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/react-native/batchedbridge.d.ts": {
+        "version": "496293b62091a5bfb97dac7a0055f3e73dfc7b8d8c220000ecf68635c0bef790",
+        "signature": "496293b62091a5bfb97dac7a0055f3e73dfc7b8d8c220000ecf68635c0bef790",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/@types/react-native/devtools.d.ts": {
+        "version": "715ee74e86e7388d2923cd6377fafcf3f86bea534d5cb4c827a1603383fabdb3",
+        "signature": "715ee74e86e7388d2923cd6377fafcf3f86bea534d5cb4c827a1603383fabdb3",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/react-native/launchscreen.d.ts": {
+        "version": "234b97ac9af46707f2315ff395a9b340d37b7dbc8290d91f5d6bd97189d220f3",
+        "signature": "234b97ac9af46707f2315ff395a9b340d37b7dbc8290d91f5d6bd97189d220f3",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/csstype/index.d.ts": {
+        "version": "b3a4ee9791cdd4f5029b3ffe60b9cae1ac308a4238b0444f40a5222e4ecc5cc1",
+        "signature": "b3a4ee9791cdd4f5029b3ffe60b9cae1ac308a4238b0444f40a5222e4ecc5cc1",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/react/index.d.ts": {
+        "version": "2b9f3e90d70810dab17d5eca94a736e2eed7d57d603b8879ea0a3c2829ddb26b",
+        "signature": "2b9f3e90d70810dab17d5eca94a736e2eed7d57d603b8879ea0a3c2829ddb26b",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/@types/react-native/index.d.ts": {
+        "version": "6364cf4e3f2ba09d2074d69520d3d4b01ce872ea32dbba81c1765e3ae32cea12",
+        "signature": "6364cf4e3f2ba09d2074d69520d3d4b01ce872ea32dbba81c1765e3ae32cea12",
+        "affectsGlobalScope": true
+      },
+      "../../lib/searchbar.style.ts": {
+        "version": "e5fd594ec65c56c30524cc8fb95f95b5fa50e00907867af4efcdc9cf3a166b08",
+        "signature": "039b357425fd5553cba71752b0e6dcb2734c1859d780a29acee6b22e96cf2a62",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts": {
+        "version": "1eeb8fdb9780aed210917b7c31f26ef073d08cc26279ae61959540cc75e1194c",
+        "signature": "1eeb8fdb9780aed210917b7c31f26ef073d08cc26279ae61959540cc75e1194c",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/plane.d.ts": {
+        "version": "4ce73f24d47b8ce6c0059f88368cc6042c611771d749a286c683dca4b2c561d5",
+        "signature": "4ce73f24d47b8ce6c0059f88368cc6042c611771d749a286c683dca4b2c561d5",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/bounce.d.ts": {
+        "version": "e226df2e8b45ef8484b6eba46677782af91885731f25a29dfbcf480c4b96f5a7",
+        "signature": "e226df2e8b45ef8484b6eba46677782af91885731f25a29dfbcf480c4b96f5a7",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/pulse.d.ts": {
+        "version": "3abd692e258f6e369473ec76cc6dbcd53398486e9bb9934a227b62739c4794ff",
+        "signature": "3abd692e258f6e369473ec76cc6dbcd53398486e9bb9934a227b62739c4794ff",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/swing.d.ts": {
+        "version": "dc1ed789748e1fdccc5fd45b9fc6c390c9c687c2bca0715c812b1c8db9cba267",
+        "signature": "dc1ed789748e1fdccc5fd45b9fc6c390c9c687c2bca0715c812b1c8db9cba267",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/chase.d.ts": {
+        "version": "4b6775595aa5e4787a2b65ef5194ad5f1d8bf14881e914772f77f53ace669f28",
+        "signature": "4b6775595aa5e4787a2b65ef5194ad5f1d8bf14881e914772f77f53ace669f28",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wave.d.ts": {
+        "version": "b0087e2eda7df79adef2bb976074ef2605624305d2e2429679b89d1da9ea5191",
+        "signature": "b0087e2eda7df79adef2bb976074ef2605624305d2e2429679b89d1da9ea5191",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/flow.d.ts": {
+        "version": "b5de0110438283710e19c7371a2e5acfc836a89c6a1cf2982332f17f8e6f8b34",
+        "signature": "b5de0110438283710e19c7371a2e5acfc836a89c6a1cf2982332f17f8e6f8b34",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circle.d.ts": {
+        "version": "f7c3e9e30d323a193e62b5419005033cca85fc2f0e4e5f1341bfaf513241e136",
+        "signature": "f7c3e9e30d323a193e62b5419005033cca85fc2f0e4e5f1341bfaf513241e136",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circlefade.d.ts": {
+        "version": "f5075e4b1551ac2f49f5d4457ca6a047ca320df76f935f20196d17f288dc368f",
+        "signature": "f5075e4b1551ac2f49f5d4457ca6a047ca320df76f935f20196d17f288dc368f",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/grid.d.ts": {
+        "version": "f744ebe87d3619bf773b57726d6d573fec4620a652d5dffa250c3de3345bd290",
+        "signature": "f744ebe87d3619bf773b57726d6d573fec4620a652d5dffa250c3de3345bd290",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/fold.d.ts": {
+        "version": "3508de7cba13480a02d60ba27a1072938f47d1937ea265bbb7fb5d67a1612de2",
+        "signature": "3508de7cba13480a02d60ba27a1072938f47d1937ea265bbb7fb5d67a1612de2",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wander.d.ts": {
+        "version": "9faf76d22cf39c2eacfde4fadb27769b067bbc65d528afdaba21242d3c7aae52",
+        "signature": "9faf76d22cf39c2eacfde4fadb27769b067bbc65d528afdaba21242d3c7aae52",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/index.d.ts": {
+        "version": "c3be9c34d69debdca7240047dcfc42c5652428ad4b9eb712c34315780cc80724",
+        "signature": "c3be9c34d69debdca7240047dcfc42c5652428ad4b9eb712c34315780cc80724",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@freakycoder/react-native-bounceable/build/dist/rnbounceable.d.ts": {
+        "version": "3999e2108f9297a62acafcc3912e7faeebaace6da3634113108fe5f6ab5d551e",
+        "signature": "3999e2108f9297a62acafcc3912e7faeebaace6da3634113108fe5f6ab5d551e",
+        "affectsGlobalScope": false
+      },
+      "../../lib/searchbar.tsx": {
+        "version": "8464afc8bd05e9d3191fcea487b28626c9f36995abe4927af9f121730654c0bd",
+        "signature": "06a79ae0f98252c7104174b37a5a79ec228501d5dff4fbdfa489efd999897f82",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/eslint-visitor-keys/index.d.ts": {
+        "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "signature": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/json-schema/index.d.ts": {
+        "version": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
+        "signature": "b2be568d8ce95fcb26eebd04c035d94825655fdf689bf67d799f5ff8cbbb1024",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/parse-json/index.d.ts": {
+        "version": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "signature": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 99,
+      "module": 1,
+      "lib": [
+        "lib.es2015.d.ts"
+      ],
+      "allowJs": true,
+      "jsx": 3,
+      "noImplicitAny": false,
+      "incremental": true,
+      "isolatedModules": true,
+      "strict": true,
+      "moduleResolution": 2,
+      "skipLibCheck": true,
+      "baseUrl": "../..",
+      "outDir": "./",
+      "noEmitHelpers": true,
+      "importHelpers": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "declaration": true,
+      "sourceMap": true,
+      "configFilePath": "../../tsconfig.json"
+    },
+    "referencedMap": {
+      "../../lib/searchbar.style.ts": [
+        "../../node_modules/@types/react-native/index.d.ts"
+      ],
+      "../../lib/searchbar.tsx": [
+        "../../lib/searchbar.style.ts",
+        "../../node_modules/@freakycoder/react-native-bounceable/build/dist/rnbounceable.d.ts",
+        "../../node_modules/@types/react-native/index.d.ts",
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/index.d.ts"
+      ],
+      "../../node_modules/@freakycoder/react-native-bounceable/build/dist/rnbounceable.d.ts": [
+        "../../node_modules/@types/react-native/index.d.ts",
+        "../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../node_modules/@types/react-native/devtools.d.ts": [
+        "../../node_modules/@types/react-native/devtools.d.ts"
+      ],
+      "../../node_modules/@types/react-native/index.d.ts": [
+        "../../node_modules/@types/react-native/batchedbridge.d.ts",
+        "../../node_modules/@types/react-native/devtools.d.ts",
+        "../../node_modules/@types/react-native/globals.d.ts",
+        "../../node_modules/@types/react-native/launchscreen.d.ts",
+        "../../node_modules/@types/react-native/legacy-properties.d.ts",
+        "../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../node_modules/@types/react-native/legacy-properties.d.ts": [
+        "../../node_modules/@types/react-native/index.d.ts"
+      ],
+      "../../node_modules/@types/react/index.d.ts": [
+        "../../node_modules/@types/prop-types/index.d.ts",
+        "../../node_modules/@types/react/global.d.ts",
+        "../../node_modules/csstype/index.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/bounce.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/chase.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circle.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circlefade.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/flow.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/fold.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/grid.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/index.d.ts": [
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/bounce.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/chase.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/circle.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/circlefade.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/flow.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/fold.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/grid.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/plane.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/pulse.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/swing.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/wander.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/wave.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/plane.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/pulse.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts": [
+        "../../node_modules/@types/react-native/index.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/swing.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wander.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wave.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../lib/searchbar.style.ts": [
+        "../../node_modules/@types/react-native/index.d.ts"
+      ],
+      "../../lib/searchbar.tsx": [
+        "../../node_modules/@types/react-native/index.d.ts",
+        "../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../node_modules/@freakycoder/react-native-bounceable/build/dist/rnbounceable.d.ts": [
+        "../../node_modules/@types/react-native/index.d.ts",
+        "../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../node_modules/@types/react-native/devtools.d.ts": [
+        "../../node_modules/@types/react-native/devtools.d.ts"
+      ],
+      "../../node_modules/@types/react-native/index.d.ts": [
+        "../../node_modules/@types/react-native/batchedbridge.d.ts",
+        "../../node_modules/@types/react-native/devtools.d.ts",
+        "../../node_modules/@types/react-native/globals.d.ts",
+        "../../node_modules/@types/react-native/launchscreen.d.ts",
+        "../../node_modules/@types/react-native/legacy-properties.d.ts",
+        "../../node_modules/@types/react/index.d.ts"
+      ],
+      "../../node_modules/@types/react-native/legacy-properties.d.ts": [
+        "../../node_modules/@types/react-native/index.d.ts"
+      ],
+      "../../node_modules/@types/react/index.d.ts": [
+        "../../node_modules/@types/prop-types/index.d.ts",
+        "../../node_modules/@types/react/global.d.ts",
+        "../../node_modules/csstype/index.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/bounce.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/chase.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circle.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circlefade.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/flow.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/fold.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/grid.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/index.d.ts": [
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/bounce.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/chase.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/circle.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/circlefade.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/flow.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/fold.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/grid.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/plane.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/pulse.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/swing.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/wander.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/wave.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/plane.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/pulse.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts": [
+        "../../node_modules/@types/react-native/index.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/swing.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wander.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ],
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wave.d.ts": [
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../lib/searchbar.style.ts",
+      [
+        "../../lib/searchbar.tsx",
+        [
+          {
+            "file": "../../lib/searchbar.tsx",
+            "start": 4558,
+            "length": 5,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type 'ViewStyle | ViewStyle[] | undefined' is not assignable to type 'ViewStyle'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Type 'undefined' is not assignable to type 'ViewStyle'.",
+                  "category": 1,
+                  "code": 2322
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "../../node_modules/@freakycoder/react-native-bounceable/build/dist/rnbounceable.d.ts",
+      "../../node_modules/@types/eslint-visitor-keys/index.d.ts",
+      "../../node_modules/@types/json-schema/index.d.ts",
+      "../../node_modules/@types/parse-json/index.d.ts",
+      "../../node_modules/@types/prop-types/index.d.ts",
+      "../../node_modules/@types/react-native/batchedbridge.d.ts",
+      "../../node_modules/@types/react-native/devtools.d.ts",
+      "../../node_modules/@types/react-native/globals.d.ts",
+      "../../node_modules/@types/react-native/index.d.ts",
+      "../../node_modules/@types/react-native/launchscreen.d.ts",
+      "../../node_modules/@types/react-native/legacy-properties.d.ts",
+      "../../node_modules/@types/react/global.d.ts",
+      "../../node_modules/@types/react/index.d.ts",
+      "../../node_modules/csstype/index.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/bounce.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/chase.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circle.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/circlefade.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/flow.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/fold.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/grid.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/index.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/plane.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/pulse.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/spinnerprops.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/swing.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wander.d.ts",
+      "../../node_modules/react-native-animated-spinkit/lib/typescript/wave.d.ts",
+      "../../node_modules/tslib/tslib.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../node_modules/typescript/lib/lib.es5.d.ts"
+    ]
+  },
+  "version": "4.0.3"
+}
